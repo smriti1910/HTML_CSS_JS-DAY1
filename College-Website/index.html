@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saveetha Engineering College</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/logo.jpg" alt="College Logo" class="logo">
+            <h1>Saveetha Engineering College</h1>
+            <nav>
+                <ul class="horizontal-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="academics.html">Academics</a></li>
+                    <li><a href="admission.html">Admission</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+            <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <main>
+        <section><center>
+            <h2>Welcome to SEC</h2>
+            <p>Welcome to our esteemed college, where we take pride in offering a comprehensive selection of courses and programs tailored to meet diverse academic interests and career aspirations. Whether you're passionate about engineering, humanities, business, or the sciences, our institution is committed to providing you with the knowledge and skills necessary for success in today's competitive world. Our dedicated faculty members and state-of-the-art facilities ensure a supportive learning environment where innovation and academic excellence thrive.</p>
+        </center> </section>
+    </main>
+    <footer>
+        <p>© 2024 SEC. All rights reserved.</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.querySelector('.horizontal-menu');
+            if (menu.style.display === 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
